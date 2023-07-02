@@ -35,7 +35,7 @@ void fun1()
 {
 	switch(App_u8ButtonData)
 		{
-		case 94: //3
+		case 94: //3 in remote 
 					MGPIO_voidOutputSetPinValue(GPIO_A , PIN2 , LOW);
 					MGPIO_voidOutputSetPinValue(GPIO_A , PIN1 , HIGH);
 					MGPIO_voidOutputSetPinValue(GPIO_A , PIN3 , LOW);
